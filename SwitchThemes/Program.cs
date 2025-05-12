@@ -25,7 +25,7 @@ namespace SwitchThemes
 		static void Main(string[] args)
 		{
 			//Used to generate json patches for the installer
-			//Clipboard.SetText(TextureReplacement.GenerateJsonPatchesForInstaller());
+			Clipboard.SetText(TextureReplacement.GenerateJsonPatchesForInstaller());
 
 			bool IsMono = Type.GetType("Mono.Runtime") != null;
 

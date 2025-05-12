@@ -61,7 +61,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'CIRelease|AnyCPU'">
     <OutputPath>bin\CIRelease\</OutputPath>
-    <DefineConstants>TRACE;WIN;CIRelease</DefineConstants>
+    <DefineConstants>TRACE;WIN;CIRelease;DEBUG</DefineConstants>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
     <Optimize>true</Optimize>
     <PlatformTarget>AnyCPU</PlatformTarget>
