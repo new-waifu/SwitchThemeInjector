@@ -413,7 +413,7 @@ namespace SwitchThemes.Common
 			new TextureReplacement("controller",new[] {"RdtIcoCtrl_00^s"},			0x5050505, "blyt/RdtBtnCtrl.bflyt",		"P_Form",			64,56, CtrlPatch),
 			new TextureReplacement("settings",  new[] {"RdtIcoSet^s"},				0x5050505, "blyt/RdtBtnSet.bflyt",		"P_Pict",			64,56, SetPatch),
 			new TextureReplacement("power",     new[] {"RdtIcoPwrForm^s"},			0x5050505, "blyt/RdtBtnPow.bflyt",		"P_Pict_00",		64,56, PowPatch),
-			new TextureReplacement("nso",       new[] {"RdtIcoLR_00^s"},			0x5050505, "blyt/RdtBtnLR.bflyt",		"P_LR_00",			64,56, VgcPatch),
+			new TextureReplacement("nso",       new[] {"RdtIcoLR_00^s"},			0x5050505, "blyt/RdtBtnLR.bflyt",		"P_LR_00",			64,56, NsoPatch),
 			new TextureReplacement("card",      new[] {"RdtIcoHomeVgc^s"},			0x5050505, "blyt/RdtBtnVgc.bflyt",		"P_Pict_00",		64,56, VgcPatch),
 			new TextureReplacement("share",     new[] {"RdtIcoHomeSplayFrame^s"},	0x5050505, "blyt/RdtBtnSplay.bflyt",	"P_Pict_00",		64,56, SplayPatch),
 		};
